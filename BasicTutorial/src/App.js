@@ -1,7 +1,13 @@
-import React from "react";
+import React from 'react';
+import { RecoilRoot } from 'recoil';
+import TodoList from './TodoList';
 
 function App() {
-    return <div className="App">Basic Tutorial</div>;
+    return (
+        <RecoilRoot>
+            <TodoList />
+        </RecoilRoot>
+    );
 }
 
 export default App;
