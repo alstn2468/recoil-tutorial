@@ -9,6 +9,8 @@ function TodoList() {
 
     return (
         <>
+            {/* <TodoListStats /> */}
+            {/* <TodoListFilters /> */}
             <TodoItemCreator />
             {todoList.map((todoItem) => (
                 <TodoItem item={todoItem} />
