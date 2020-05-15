@@ -1,7 +1,10 @@
 import React from "react";
+import { useRecoilState } from "recoil";
+import { charCountState } from "./RecoilState";
 
 const CharacterCount = () => {
-    return <div>CharacterCount</div>;
+    const count = useRecoilState(charCountState);
+    return <div>Character Count : {count}</div>;
 };
 
 export default CharacterCount;
