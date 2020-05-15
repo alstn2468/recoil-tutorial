@@ -2,7 +2,7 @@
 
 ### Recoil at React Europe 2020
 
-<iframe src="https://www.youtube.com/watch?v=fb3cOMFkEzs&feature=emb_title" title="Recoil at React Europe 2020"></iframe>
+[![Recoil at React Europe 2020](https://i.ytimg.com/vi/fb3cOMFkEzs/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLBb1fKWmsHIa4aRCNaVlzlKkm2GWA)](https://www.youtube.com/watch?v=fb3cOMFkEzs&feature=emb_title)
 
 ### Recoil이란?
 
