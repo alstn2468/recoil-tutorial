@@ -1,4 +1,4 @@
-## Recoil Getting Started Tutorial
+## Recoil Tutorial
 
 ### Recoil at React Europe 2020
 
@@ -6,7 +6,10 @@
 
 ### Recoil이란?
 
-`redux`, `contextAPI`와 비슷하게 **전역적인 상태 관리**를 도와주는 **패키지**
+`redux`, `contextAPI`와 비슷하게 **전역적인 상태 관리**를 도와주는 **패키지**<br/>
+개인적으로 `redux`나 `contextAPI`를 사용했던 것 보다 쉽게 쓸 수 있을 것 같다.<br/>
+`useRecoilState`나 `useRecoilValue`함수가 `useState`나 `useMemo`같은 `Hook`과 비슷한 것 같다.<br/>
+어렵지 않게 `Hook`을 이용해 **전역적**으로 **상태 관리**를 하게 도와주는 좋은 **패키지**인 것 같다.<br/>
 
 ### Recoil Root
 
@@ -22,10 +25,10 @@
 `React Hook`의 `useMemo`외 비슷한 역할<br/>
 전역 상태의 값을 가지고 다른 값을 만들어 사용할 수 있다.<br/>
 
-### DEMO
+### Getting Started Demo
 
-<img src="/demo.gif" width="400" height="auto"/><br/>
+<img src="/getting-started-demo.gif" width="400" height="auto"/><br/>
 
-개인적으로 `redux`나 `contextAPI`를 사용했던 것 보다 쉽게 쓸 수 있을 것 같다.<br/>
-`useRecoilState`나 `useRecoilValue`함수가 `useState`나 `useMemo`같은 `Hook`과 비슷한 것 같다.<br/>
-어렵지 않게 `Hook`을 이용해 **전역적**으로 **상태 관리**를 하게 도와주는 좋은 **패키지**인 것 같다.<br/>
+### Basic Tutorial Demo
+
+<img src="/basic-tutorial-demo.gif" width="400" height="auto" alt="Not yet"/><br/>
