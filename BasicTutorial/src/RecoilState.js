@@ -21,7 +21,7 @@ export const filteredTodoListState = selector({
                 return list.filter((item) => item.isComplete);
             case 'Show Uncompleted':
                 return list.filter((item) => !item.isComplete);
-            case 'default':
+            default:
                 return list;
         }
     },
