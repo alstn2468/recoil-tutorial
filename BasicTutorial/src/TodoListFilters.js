@@ -21,4 +21,4 @@ function TodoListFilters() {
     );
 }
 
-export default TodoListFilters;
+export default React.memo(() => <TodoListFilters />);

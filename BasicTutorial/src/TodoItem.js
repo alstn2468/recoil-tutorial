@@ -51,4 +51,4 @@ function TodoItem({ item }) {
     );
 }
 
-export default TodoItem;
+export default React.memo(({ item }) => <TodoItem item={item} />);

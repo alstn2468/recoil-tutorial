@@ -17,6 +17,7 @@ function TodoItemCreator() {
             ...oldTodoList,
             { id: getId(), text: inputValue, isComplete: false },
         ]);
+        setInputValue('');
     };
 
     const onChange = ({ target: { value } }) => {
@@ -31,4 +32,4 @@ function TodoItemCreator() {
     );
 }
 
-export default TodoItemCreator;
+export default React.memo(() => <TodoItemCreator />);

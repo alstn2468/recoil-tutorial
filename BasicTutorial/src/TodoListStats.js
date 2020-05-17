@@ -22,4 +22,4 @@ function TodoListStats() {
     );
 }
 
-export default TodoListStats;
+export default React.memo(() => <TodoListStats />);
